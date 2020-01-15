@@ -8,7 +8,7 @@ private:
 	string name;
 	int age;
 public:
-	dog();
+	dog():name("undefined"),age(0){};
 	dog(string name,int age);
 	string toString();
 };
